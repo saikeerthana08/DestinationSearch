@@ -1,4 +1,4 @@
-In this project, let's build a **Destination Search** app by applying the concepts we have learned till now.
+In this project, I build a **Destination Search** app.
 
 ### Refer to the image below:
 
@@ -17,26 +17,16 @@ In this project, let's build a **Destination Search** app by applying the concep
 - [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px)](https://assets.ccbp.in/frontend/content/react-js/destination-search-lg-output-v2.png)
 
 </details>
-
-### Set Up Instructions
-
-<details>
-<summary>Click to view</summary>
-
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
-
 ### Completion Instructions
 
 <details>
-<summary>Functionality to be added</summary>
+<summary>Functionalities to be added</summary>
 <br/>
 
-The app must have the following functionalities
+The app has the following functionalities
 
-- Initially, all destinations in the `destinationsList` should be displayed
-- When a value is provided in the search input, only the destinations whose names contain the value provided in the search input should be displayed irrespective of the case
+- Initially, all destinations in the `destinationsList` is displayed
+- When a value is provided in the search input, only the destinations whose names contain the value provided in the search input is displayed irrespective of the case
 - The `DestinationSearch` component receives the `destinationsList` as a prop. It consists of a list of destination objects with the following properties in each destination object
 
   |  Key   | Data Type |
@@ -59,35 +49,15 @@ The app must have the following functionalities
 </details>
 
 <details>
-<summary>Implementation Files</summary>
+<summary>Implemented Files</summary>
 <br/>
 
-Use these files to complete the implementation:
+Used these files to complete the implementation:
 
 - `src/components/DestinationSearch/index.js`
 - `src/components/DestinationSearch/index.css`
 - `src/components/DestinationItem/index.js`
 - `src/components/DestinationItem/index.css`
-</details>
-
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-
-<br/>
-
-**The following instructions are required for the tests to pass**
-
-- The search for the destination should be case insensitive. You can use the `toLowerCase` method to convert a string into lower case letters.
-
-  ```js
-  const text = 'Learn JavaScript'
-  console.log(text.toLowerCase()); // learn javascript
-  ```
-
-- Each `DestinationItem` should have an HTML image element with `alt` attribute value as the value of the key **name** in `destinationsList`
-
 </details>
 
 ### Resources
@@ -118,10 +88,3 @@ Use these files to complete the implementation:
 - Open Sans
 
 </details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
