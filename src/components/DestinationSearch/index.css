@@ -1,0 +1,68 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  max-width: 1140px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-container {
+    align-items: flex-start;
+  }
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.input-container {
+  display: flex;
+  background-color: #f1f5f9;
+  padding: 8px 16px;
+  border-radius: 10px;
+}
+
+.input-search {
+  background-color: #f1f5f9;
+  font-family: 'Open Sans';
+  font-size: 10px;
+  color: #252627;
+  border: none;
+  outline: none;
+}
+
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin-top: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-container {
+    justify-content: flex-start;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  margin: 48px 0 32px 15px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    margin-top: 96px;
+  }
+}
